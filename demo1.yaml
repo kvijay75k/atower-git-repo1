@@ -1,5 +1,5 @@
 ---
-- hosts: linuxall
+- hosts: lxnode.lab.com
   become: true
   tasks:
   - name: Create directory
