@@ -1,0 +1,6 @@
+---
+- hosts: linuxnodes
+  tasks:
+  - name: Create directory
+    file: path=/home/vkadmin/temp12345 state=directory mode=775 owner=vkadmin group=vkadmin
+
